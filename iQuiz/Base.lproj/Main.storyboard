@@ -136,6 +136,8 @@
                     <connections>
                         <outlet property="tituloQuestaoLabel" destination="gzC-Mm-Sak" id="o0p-BS-FtF"/>
                         <outletCollection property="botoesRespostas" destination="SkX-9B-BaA" collectionClass="NSMutableArray" id="ekc-N4-EpW"/>
+                        <outletCollection property="botoesRespostas" destination="vUF-3q-VRP" collectionClass="NSMutableArray" id="D5i-D4-BxE"/>
+                        <outletCollection property="botoesRespostas" destination="fii-18-lQb" collectionClass="NSMutableArray" id="vZg-FO-n7P"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="p5t-gP-I6u" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
