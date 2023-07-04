@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		7D2C92F92A53B5AE005371DF /* QuestaoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2C92F82A53B5AE005371DF /* QuestaoViewController.swift */; };
+		7D2C92FB2A53C0C5005371DF /* Questao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2C92FA2A53C0C5005371DF /* Questao.swift */; };
 		7D4E82D82A4F708E00AB4659 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4E82D72A4F708E00AB4659 /* AppDelegate.swift */; };
 		7D4E82DA2A4F708E00AB4659 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4E82D92A4F708E00AB4659 /* SceneDelegate.swift */; };
 		7D4E82DC2A4F708E00AB4659 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4E82DB2A4F708E00AB4659 /* ViewController.swift */; };
@@ -18,6 +19,7 @@
 
 /* Begin PBXFileReference section */
 		7D2C92F82A53B5AE005371DF /* QuestaoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestaoViewController.swift; sourceTree = "<group>"; };
+		7D2C92FA2A53C0C5005371DF /* Questao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Questao.swift; sourceTree = "<group>"; };
 		7D4E82D42A4F708E00AB4659 /* iQuiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iQuiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D4E82D72A4F708E00AB4659 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7D4E82D92A4F708E00AB4659 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -66,6 +68,7 @@
 				7D4E82E22A4F708F00AB4659 /* LaunchScreen.storyboard */,
 				7D4E82E52A4F708F00AB4659 /* Info.plist */,
 				7D2C92F82A53B5AE005371DF /* QuestaoViewController.swift */,
+				7D2C92FA2A53C0C5005371DF /* Questao.swift */,
 			);
 			path = iQuiz;
 			sourceTree = "<group>";
@@ -144,6 +147,7 @@
 				7D4E82DC2A4F708E00AB4659 /* ViewController.swift in Sources */,
 				7D4E82D82A4F708E00AB4659 /* AppDelegate.swift in Sources */,
 				7D4E82DA2A4F708E00AB4659 /* SceneDelegate.swift in Sources */,
+				7D2C92FB2A53C0C5005371DF /* Questao.swift in Sources */,
 				7D2C92F92A53B5AE005371DF /* QuestaoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
