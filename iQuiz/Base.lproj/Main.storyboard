@@ -178,6 +178,7 @@
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="respostaBotaoPressionado:" destination="Uhz-2n-tQa" eventType="touchUpInside" id="BIf-Wt-nP8"/>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="iVO-Bp-xFy"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Você acertou 2 de 10 questões" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gQh-1d-9KK">
@@ -204,6 +205,11 @@
                             <constraint firstItem="0eZ-kE-JFb" firstAttribute="trailing" secondItem="7oC-lA-04h" secondAttribute="trailing" constant="64" id="uhH-cM-mgh"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="botaoReiniciarQuiz" destination="fMh-zO-53H" id="dmP-wb-19V"/>
+                        <outlet property="percentualLabel" destination="Hj8-Jx-PpK" id="V7U-xs-oUn"/>
+                        <outlet property="resultadoLabel" destination="gQh-1d-9KK" id="Rac-5B-KD8"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KCh-kg-reY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -228,6 +234,9 @@
             <point key="canvasLocation" x="20.289855072463769" y="3.3482142857142856"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="4cC-VX-mAD"/>
+    </inferredMetricsTieBreakers>
     <resources>
         <image name="Logo" width="217" height="104"/>
     </resources>
