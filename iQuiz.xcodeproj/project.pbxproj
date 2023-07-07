@@ -10,6 +10,7 @@
 		7D0B01012A563E0B001713D0 /* DesempenhoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D0B01002A563E0B001713D0 /* DesempenhoViewController.swift */; };
 		7D2C92F92A53B5AE005371DF /* QuestaoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2C92F82A53B5AE005371DF /* QuestaoViewController.swift */; };
 		7D2C92FB2A53C0C5005371DF /* Questao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2C92FA2A53C0C5005371DF /* Questao.swift */; };
+		7D3D0BA12A57AA75006E4BE3 /* UIColor+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D3D0BA02A57AA75006E4BE3 /* UIColor+.swift */; };
 		7D4E82D82A4F708E00AB4659 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4E82D72A4F708E00AB4659 /* AppDelegate.swift */; };
 		7D4E82DA2A4F708E00AB4659 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4E82D92A4F708E00AB4659 /* SceneDelegate.swift */; };
 		7D4E82DC2A4F708E00AB4659 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4E82DB2A4F708E00AB4659 /* ViewController.swift */; };
@@ -22,6 +23,7 @@
 		7D0B01002A563E0B001713D0 /* DesempenhoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesempenhoViewController.swift; sourceTree = "<group>"; };
 		7D2C92F82A53B5AE005371DF /* QuestaoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestaoViewController.swift; sourceTree = "<group>"; };
 		7D2C92FA2A53C0C5005371DF /* Questao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Questao.swift; sourceTree = "<group>"; };
+		7D3D0BA02A57AA75006E4BE3 /* UIColor+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+.swift"; sourceTree = "<group>"; };
 		7D4E82D42A4F708E00AB4659 /* iQuiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iQuiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D4E82D72A4F708E00AB4659 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7D4E82D92A4F708E00AB4659 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -61,6 +63,14 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		7D3D0B9F2A57A9DF006E4BE3 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				7D3D0BA02A57AA75006E4BE3 /* UIColor+.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		7D4E82CB2A4F708E00AB4659 = {
 			isa = PBXGroup;
 			children = (
@@ -80,6 +90,7 @@
 		7D4E82D62A4F708E00AB4659 /* iQuiz */ = {
 			isa = PBXGroup;
 			children = (
+				7D3D0B9F2A57A9DF006E4BE3 /* Extensions */,
 				7D0B01052A5666C8001713D0 /* Model */,
 				7D0B01042A5665F2001713D0 /* ViewController */,
 				7D4E82D72A4F708E00AB4659 /* AppDelegate.swift */,
@@ -169,6 +180,7 @@
 				7D2C92FB2A53C0C5005371DF /* Questao.swift in Sources */,
 				7D0B01012A563E0B001713D0 /* DesempenhoViewController.swift in Sources */,
 				7D2C92F92A53B5AE005371DF /* QuestaoViewController.swift in Sources */,
+				7D3D0BA12A57AA75006E4BE3 /* UIColor+.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
